@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="VoiceView">
+
+        <!-- 最大音量 -->
+        <attr name="maxVoice" format="integer" />
+        <!-- 默认音量 -->
+        <attr name="defaultVoice" format="integer" />
+        <!-- 音量条宽度 -->
+        <attr name="voiceBarWidth" format="dimension" />
+        <!-- 音量条之间的间距 -->
+        <attr name="voiceBarDistance" format="dimension" />
+        <!-- 背景音量条的高度 -->
+        <attr name="bgVoiceHeight" format="dimension" />
+        <!-- 音量条的高度 -->
+        <attr name="fgVoiceHeight" format="dimension" />
+
+        <!-- 背景音量条的颜色 -->
+        <attr name="bgVoiceColor" format="reference|color" />
+        <!-- 音量条的颜色 -->
+        <attr name="fgVoiceColor" format="reference|color" />
+    </declare-styleable>
+
+</resources>

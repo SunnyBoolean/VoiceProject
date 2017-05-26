@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.geostar.liwei.voiceproject"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.geostar.liwei.voiceproject.MainActivity">
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="音量加" />
+
+    <Button
+        android:id="@+id/jian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="音量减" />
+
+    <com.geostar.liwei.voiceproject.VoiceView
+        android:id="@+id/voiceview"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        app:bgVoiceColor="#FF78909C"
+        app:bgVoiceHeight="30dp"
+        app:defaultVoice="5"
+        app:fgVoiceColor="#FF03A9F4"
+        app:fgVoiceHeight="45dp"
+        app:maxVoice="60"
+        app:voiceBarDistance="2dp"
+        app:voiceBarWidth="2dp" />
+
+
+</LinearLayout>
